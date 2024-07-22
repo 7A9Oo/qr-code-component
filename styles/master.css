@@ -15,7 +15,7 @@
 /* start media queries */
 /* mobile */
 @media (max-width:375px){
-
+    
 }
 /* desktop */
 @media (max-width:1440px){
@@ -24,3 +24,41 @@
 
 
 /* end media queries */
+body {
+    background-color: var(--slate-300);
+}
+
+.container {
+    height: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+   background-color: var(--white);
+   width: 320px;
+   height: 500px;
+   border-radius: 20px;
+   padding: 16px 16px 40px 16px;
+}
+.card img{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+.card .text {
+    text-align: center;
+    padding: 24px 16px 0 16px;
+}
+.card .text h2{
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+.card .text p{
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    padding-top: 16px;
+}

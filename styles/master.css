@@ -55,10 +55,12 @@ body {
     line-height: 1.2;
     letter-spacing: 0;
     font-weight: bold;
+    color: var(--slate-900);
 }
 .card .text p{
     font-size: 15px;
     line-height: 1.4;
     letter-spacing: 0.2px;
     padding-top: 16px;
+    color: var(--slate-500);
 }
